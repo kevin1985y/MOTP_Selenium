@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Administrator-20180129144227" tests="54" time="597.368">
+	<testcase classname="Administrator" name="test_a1_AddAdminPage" time="15.155"/>
+	<testcase classname="Administrator" name="test_a2_EmptyAccount" time="11.424"/>
+	<testcase classname="Administrator" name="test_a3_SpecialAccount" time="11.507"/>
+	<testcase classname="Administrator" name="test_a4_EmptyPassword" time="11.667"/>
+	<testcase classname="Administrator" name="test_a5_LengthPassword" time="11.139"/>
+	<testcase classname="Administrator" name="test_a6_SpecialPassword" time="11.152"/>
+	<testcase classname="Administrator" name="test_a7_EmptyRetypePassword" time="10.826"/>
+	<testcase classname="Administrator" name="test_a8_LengthRetypePassword" time="11.919"/>
+	<testcase classname="Administrator" name="test_a9_SpecialRetypePassword" time="11.286"/>
+	<testcase classname="Administrator" name="test_b1_DifferentPassword" time="11.032"/>
+	<testcase classname="Administrator" name="test_b2_WrongFomatEmail" time="12.099"/>
+	<testcase classname="Administrator" name="test_b3_SpecialEmail" time="11.170"/>
+	<testcase classname="Administrator" name="test_b4_SpecialDescription" time="11.833"/>
+	<testcase classname="Administrator" name="test_b5_AddSuperAccount" time="11.414"/>
+	<testcase classname="Administrator" name="test_b6_DuplicateAccountLower" time="11.440"/>
+	<testcase classname="Administrator" name="test_b7_DuplicateAccountUpper" time="11.546"/>
+	<testcase classname="Administrator" name="test_b8_AddOperatorAccount" time="11.727"/>
+	<testcase classname="Administrator" name="test_b9_AddOTPUsersAccount" time="12.466"/>
+	<testcase classname="Administrator" name="test_c1_AddAPIAccount" time="11.460"/>
+	<testcase classname="Administrator" name="test_c2_LengthLimit" time="12.018"/>
+	<testcase classname="Administrator" name="test_c3_QueryNotExistAccount" time="10.031"/>
+	<testcase classname="Administrator" name="test_c4_QuerySpecialAccount" time="10.035"/>
+	<testcase classname="Administrator" name="test_c5_QueryAllAccount" time="10.048"/>
+	<testcase classname="Administrator" name="test_c6_BackToSearchPage" time="9.572"/>
+	<testcase classname="Administrator" name="test_c7_QueryWildcardChar" time="9.934"/>
+	<testcase classname="Administrator" name="test_c8_ModifyRole" time="10.071"/>
+	<testcase classname="Administrator" name="test_c9_ModifyWrongFomatEmail" time="9.925"/>
+	<testcase classname="Administrator" name="test_d1_ModifySpecialEmail" time="9.919"/>
+	<testcase classname="Administrator" name="test_d2_ModifySpecialDescription" time="9.961"/>
+	<testcase classname="Administrator" name="test_d3_ModifyEmptyPassword" time="9.804"/>
+	<testcase classname="Administrator" name="test_d4_ModifyLengthPassword" time="10.056"/>
+	<testcase classname="Administrator" name="test_d5_ModifySpecialPassword" time="9.949"/>
+	<testcase classname="Administrator" name="test_d6_ModifyEmptyRetypePassword" time="10.230"/>
+	<testcase classname="Administrator" name="test_d7_ModifyLengthRetypePassword" time="10.529"/>
+	<testcase classname="Administrator" name="test_d8_ModifySpecialRetypePassword" time="10.645"/>
+	<testcase classname="Administrator" name="test_d9_ModifyDifferentPassword" time="11.631"/>
+	<testcase classname="Administrator" name="test_e1_ModifyAccountSucceed" time="10.834"/>
+	<testcase classname="Administrator" name="test_e2_CancelStopRights" time="10.879"/>
+	<testcase classname="Administrator" name="test_e3_StopRights" time="11.243"/>
+	<testcase classname="Administrator" name="test_e4_CancelRehabilitate" time="12.042"/>
+	<testcase classname="Administrator" name="test_e5_Rehabilitate" time="11.773"/>
+	<testcase classname="Administrator" name="test_e6_ModifyUsingHWOTP" time="10.702"/>
+	<testcase classname="Administrator" name="test_e7_ModifyUsingHWOTPWithSN" time="11.607"/>
+	<testcase classname="Administrator" name="test_e8_ModifyUsingNoSWOTP" time="11.126"/>
+	<testcase classname="Administrator" name="test_e9_ModifyUsingSWOTP" time="13.828"/>
+	<testcase classname="Administrator" name="test_f1_ModifyUsingNoODOTP" time="11.253"/>
+	<testcase classname="Administrator" name="test_f2_ModifyUsingODOTP" time="11.385"/>
+	<testcase classname="Administrator" name="test_f3_ModifyUsingNoPushOTP" time="10.561"/>
+	<testcase classname="Administrator" name="test_f4_ModifyUsingPushOTP" time="12.981"/>
+	<testcase classname="Administrator" name="test_f5_QueryChangeItemPerPage" time="12.830"/>
+	<testcase classname="Administrator" name="test_f6_SwitchItemPerPage" time="10.220"/>
+	<testcase classname="Administrator" name="test_f7_DeleteNoChoice" time="8.868"/>
+	<testcase classname="Administrator" name="test_f8_CancelDelete" time="9.038"/>
+	<testcase classname="Administrator" name="test_f9_DeleteAdmin" time="9.578"/>
+	<system-out>
+<![CDATA[1. Create Account Page
+2. [Account] Please fill the fields.
+3. [Account] Correct character: 0~9, a~z, A~Z, ._-
+4. [Password] Please fill the fields.
+5. [Password] The length of the data fail.
+6. [Password] Correct character: 0~9, a~z, A~Z, !#*:;,.?/$@
+7. [Re-type PW] Please fill the fields.
+8. [Re-type PW] The length of the data fail.
+9. [Re-type PW] Correct character: 0~9, a~z, A~Z, !#*:;,.?/$@
+10. Re-type password error.
+11. Invalid Email.
+12. Invalid Email.
+13. [Description] Incorrect character `~!@#$%^&*()=+{}[];:'",/?<>
+14. Account create success.
+15.This account is used, please use the other ID.
+16.This account is used, please use the other ID.
+17. Account create success.
+18. Account create success.
+19. Account create success.
+20. Length Limit
+21. NotExistAccount
+22. [Account Name] Correct character: 0~9, a~z, A~Z, ._-*@
+23. Show all data
+24. Back to search page
+25. Show cg0*
+26. Account modify success.
+27. Invalid Email.
+28. Invalid Email.
+29. [Description] Incorrect character `~!@#$%^&*()=+{}[];:'",/?<>
+30. [New Password] Please fill the fields.
+31. [New Password] The length of the data fail.
+32. [New Password] Correct character: 0~9, a~z, A~Z, !#*:;,.?/$@
+33. [Re-type PW] Please fill the fields.
+34. [Re-type PW] The length of the data fail.
+35. [Re-type PW] Correct character: 0~9, a~z, A~Z, !#*:;,.?/$@
+36. Re-type password error.
+37. Account and password modify success.
+38. Cancel Stop Rights
+39. Account stop rights success.
+40. Cancel Rehabilitate
+41. Account rehabilitate rights success.
+42. User create success.
+43. User create and hardware token register success.
+44. User create fail.
+45. User create success.
+46. User create fail.
+47. User create success.
+48. User create fail.
+49. User create success.
+50. Show all data
+51. Show all data
+52. No choice!
+53. Cancel Delete
+54. Account delete success.
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

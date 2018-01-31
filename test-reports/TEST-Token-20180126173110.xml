@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Token-20180126173110" tests="25" time="273.765">
+	<testcase classname="Token" name="test_a1_ImportEmptyToken" time="10.637"/>
+	<testcase classname="Token" name="test_a2_ImportWrongFile" time="10.254"/>
+	<testcase classname="Token" name="test_a3_ImportHWTokenSucceed" time="11.153"/>
+	<testcase classname="Token" name="test_a4_ImportSWTokenSucceed" time="10.389"/>
+	<testcase classname="Token" name="test_a5_ImportODTokenSucceed" time="10.318"/>
+	<testcase classname="Token" name="test_a6_ImportPushTokenSucceed" time="10.362"/>
+	<testcase classname="Token" name="test_a7_QueryNotExistToken" time="10.662"/>
+	<testcase classname="Token" name="test_a8_QueryHWToken" time="10.403"/>
+	<testcase classname="Token" name="test_a9_QuerySWToken" time="10.620"/>
+	<testcase classname="Token" name="test_b1_QueryODToken" time="10.948"/>
+	<testcase classname="Token" name="test_b2_QueryPushToken" time="10.262"/>
+	<testcase classname="Token" name="test_b3_QuerySN" time="10.392"/>
+	<testcase classname="Token" name="test_b4_QuerySortByExpireDate" time="10.595"/>
+	<testcase classname="Token" name="test_b5_QuerySortByInvalidDate" time="10.675"/>
+	<testcase classname="Token" name="test_b6_QueryChangeItemPerPage" time="11.117"/>
+	<testcase classname="Token" name="test_b7_BackToSearchPage" time="10.391"/>
+	<testcase classname="Token" name="test_b8_StatisticsForToken" time="10.774"/>
+	<testcase classname="Token" name="test_b9_CancelDelToken" time="11.244"/>
+	<testcase classname="Token" name="test_c1_DelToken" time="18.852"/>
+	<testcase classname="Token" name="test_c2_ImportCRTokenSucceed" time="10.395"/>
+	<testcase classname="Token" name="test_c3_QueryNotExistCRToken" time="10.472"/>
+	<testcase classname="Token" name="test_c4_QueryCRToken" time="10.125"/>
+	<testcase classname="Token" name="test_c5_CRTokenActivate" time="11.568"/>
+	<testcase classname="Token" name="test_c6_CRTokenListBackToSearchPage" time="10.703"/>
+	<testcase classname="Token" name="test_c7_CRTokenBackToSearchPage" time="10.454"/>
+	<system-out>
+<![CDATA[1. [File Path] Please fill the fields.
+2. The csv format error.
+3. Import HWToken Succeed
+4. Import SWToken Succeed
+5. Import ODToken Succeed
+6. Import PushToken Succeed
+7. No Data
+8. Show all HW Token
+9. Show all SW Token
+10. Show all OD Token
+11. Show all Push Token
+12. Show Query SN Token
+13. Show Token Sort By Expire Date
+14. Show Token Sort By Invalid Date
+15. ChangeItemPerPage
+16. Back to search page
+17. Statistics For Token
+18. Cancel Delete Token
+19. Delete token success.
+20. Import PushToken Succeed
+21. No Data
+22. Show all CR Token
+23. Show CR Token Activate
+24. Back to search page
+25. Back to search page
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

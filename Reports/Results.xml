@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="0" failures="0" skip="0"><testcase classname="id.Login" name="test_c2_LengthLimit" time="7.809"><system-out><![CDATA[20. Length Limit
+]]></system-out></testcase></testsuite>
