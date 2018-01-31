@@ -10,24 +10,6 @@ import unittest, time, re
 import xmlrunner
 from time import sleep
 
-'''
-待調整
-def LoginOTP(self, OTP): # 登入OTP使用者
-    driver = self.driver
-    driver.get(self.base_url + "/MOTPWeb")
-    driver.find_element_by_id("user").clear()
-    driver.find_element_by_id("user").send_keys("admin")
-    driver.find_element_by_id("mypass").clear()
-    driver.find_element_by_id("mypass").send_keys("admin")
-    driver.find_element_by_id("myotp").clear()
-    driver.find_element_by_id("myotp").send_keys(OTP)
-    driver.find_element_by_id("mypass").submit()
-    driver.find_element_by_xpath("//li[@onclick=\"linkpage('AccountSelfData.jsp')\"]").click()
-    driver.find_element_by_css_selector("input[type=\"button\"]").click()        
-    welcome = driver.find_element_by_xpath(".//b[contains(text(), 'Welcome to use MOTP')]").text # 畫面文字截取
-    return welcome
-'''
-
 def alert(self): # 登出其他使用者
     driver = self.driver
     alert = driver.switch_to.alert
